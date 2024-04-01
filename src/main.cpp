@@ -1,7 +1,8 @@
 #include "eval.hpp"
 #include "instr.hpp"
+#include "optimizer.hpp"
 #include "parser.hpp"
-#include <fstream> // Include the necessary header file
+#include <fstream>
 #include <iostream>
 
 std::string read_bf_code(std::string file_path) {
@@ -22,6 +23,8 @@ int main(int argc, char *argv[]) {
   std::string bf_code = read_bf_code(file_path);
 
   std::vector<Instruction> instrs = parse_instructions(bf_code);
+
+  instrs = optimize(instrs);
 
   eval(instrs);
 }
