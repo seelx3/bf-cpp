@@ -18,5 +18,6 @@ chmod +x test.sh
 
 ## c.f.
 - [uchijo/bf-eval](https://github.com/uchijo/bf-eval)
+- [kobayashiharuto/brainfuck](https://github.com/kobayashiharuto/brainfuck)
 - [mkihr-ojisan/bf](https://github.com/mkihr-ojisan/bf)
 - [n0-t0/brainfuck](https://github.com/n0-t0/brainfuck)
