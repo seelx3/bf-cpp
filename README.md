@@ -9,6 +9,12 @@ chmod +x build.sh
 ./build.sh
 ```
 
+## how to run
+
+```bash
+./bf-cpp <file-path>
+```
+
 ## how to test
 
 ```bash
